@@ -1,0 +1,58 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../images/banner.jpg") no-repeat 0px 98px;
+    position: relative;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn{
+    position: relative;
+    display: block;
+    width: 148px;
+    height: 51px;
+    top: 468px;
+    left: 844px;
+    text-align: center;
+    background: #4EB8FF;
+    border-radius: 10px;
+    font-size: 23px;
+    color: #eeeeee;
+    animation: biger 5s infinite;
+}
+
+@keyframes biger {
+    0%{
+        transform: scale(1);  /*开始为原始大小*/
+    }
+    25%{
+        transform: scale(1.1); /*放大1.1倍*/
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.1);
+    }
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+
+
